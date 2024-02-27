@@ -1,0 +1,33 @@
+
+.caja1{
+    background-color: #bbdefb ;
+    border: 1px solid #000;
+    border-radius: 25px;
+  
+    height: 500px;
+}
+
+.caja2{
+    background-color: #e3f2fd;
+    border: 1px solid #000;
+    height: 500px;
+}
+.container {
+width: 90%;
+margin-top: 5%;
+}
+
+#nav-ele{
+    margin-right: 40%;
+}
+
+.brand-logo {
+    width: 150px;
+    height: 50px;
+
+}
+
+nav{
+    background-color: #90caf9 ;
+
+}
