@@ -1,17 +1,26 @@
 
 .caja1{
-    background-color: #bbdefb ;
+    background-color: #f5f5f5 ;
     border: 1px solid #000;
     border-radius: 25px;
   
-    height: 500px;
+    height: 450px;
 }
 
 .caja2{
-    background-color: #e3f2fd;
+    background-color: #f5f5f5;
     border: 1px solid #000;
-    height: 500px;
+    border-radius: 25px;
+    height: 600px;
+    padding: 35px;
 }
+
+.colore{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+}
+
 .container {
 width: 90%;
 margin-top: 5%;
@@ -28,6 +37,35 @@ margin-top: 5%;
 }
 
 nav{
-    background-color: #90caf9 ;
+    background-color: #0082ec ;
 
+}
+
+
+body {
+    margin: 0px;   
+    background-color: #a2cbec;
+}
+
+#resultado {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.personaje {
+    width: 300px;
+    height: 150px;
+    background-color: #f0f0f0;
+    padding: 10px;
+    border: 1px solid #000;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.personaje img{
+    width: 100px;
 }
